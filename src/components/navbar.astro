@@ -6,31 +6,31 @@ import Setting from "./icons/setting.astro";
 import Logout from "./icons/logout.astro";
 ---
 
-<div class="max-w-[5rem] bg-black h-[95vh] rounded-2xl shadow-2xl overflow-x-auto scrollbar-hide">
+<div class="max-w-[4rem] border-r-2 min-h-screen overflow-x-auto scrollbar-hide">
   <div class="flex justify-between flex-col items-center">
     <section class="pt-6">
-      <a href="/" class="text-white font-bold text-3xl font-sans">LR</a>
+      <a href="/" class="font-bold text-2xl font-sans">LR</a>
     </section>
-    <section class=" ">
-      <a href="/" class="grid place-items-center mt-20 pointer-events-none">
-        <p class="fixed pointer-events-none">.</p>
+    <section >
+      <a href="/" class="grid place-items-center mt-[20vh] pointer-events-none">
+       <!--  <p class="fixed pointer-events-none">.</p>-->
         <Home />
       </a>
-      <a href="#" class="grid place-items-center mt-9 pointer-events-none">
-        <p class="fixed pointer-events-none">.</p>
+      <a href="#" class="grid place-items-center mt-6 pointer-events-none">
+         <!--  <p class="fixed pointer-events-none">.</p>-->
         <User />
       </a>
-      <a href="#" class="grid place-items-center mt-10 pointer-events-none">
-        <p class="fixed pointer-events-none">.</p>
+      <a href="#" class="grid place-items-center mt-7 pointer-events-none">
+         <!--  <p class="fixed pointer-events-none">.</p>-->
         <Message />
       </a>
-      <a href="#" class="grid place-items-center mt-10 pointer-events-none">
-        <p class="fixed pointer-events-none">.</p>
+      <a href="#" class="grid place-items-center mt-7 pointer-events-none">
+         <!--  <p class="fixed pointer-events-none">.</p>-->
         <Setting />
       </a>
     </section>
-    <a href="#" class="pointer-events-none mt-[28vh] mb-3">
-    <p class="fixed pointer-events-none">.</p>
+    <a href="#" class="pointer-events-none mt-[20vh] mb-3">
+     <!--  <p class="fixed pointer-events-none">.</p>-->
       <Logout />
     </a>
   </div>
