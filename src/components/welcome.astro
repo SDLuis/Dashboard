@@ -1,7 +1,15 @@
 ---
-
+import Avatar from "./icons/avatar.astro";
 ---
 
-<div class="h-[15vh] bg-slate-200 rounded-2xl xl:max-w-[28rem] max-w-xs mt-5">
-
+<div class=" h-[6.5rem] md:h-[8.5rem] rounded-2xl w-[18rem] md:w-[25rem] mt-5">
+    <div class="grid grid-cols-2 place-items-center absolute">
+        <section class="relative left-1 md:bottom-3 bottom-7 md:left-5">
+            <p class="font-black text-2xl">Hello Luis!</p>
+            <p class=""> It's good to see you again.</p>
+        </section>
+        <section class="relative bottom-9 md:bottom-6 left-[-16px] md:left-6"> 
+            <Avatar />
+        </section>
+    </div>
 </div>
