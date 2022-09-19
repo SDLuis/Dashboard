@@ -1,0 +1,19 @@
+---
+import Allcourses from "./allcourses.astro";
+import Spanish from "./icons/spanish.astro";
+---
+<div class="h-[42vh] w-[17.5rem] md:w-[25rem] lg:w-[23rem] xl:w-[27rem] mt-4">
+<p class="font-black text-xl mb-3">Courses</p>
+<ul class="flex md:gap-12">
+    <li class="cursor-pointer font-bold">All Courses</li>
+    <li class="opacity-60 font-bold">The Newest</li>
+    <li class="opacity-60 font-bold">Top Rated</li>
+    <li class="opacity-60 font-bold">Most Popular</li>
+</ul>
+<div class="h-[30vh] scrollbar-thin scrollbar-thumb-black scrollbar-track-slate-300 overflow-y-scroll">
+    <Allcourses title="Learn Figma" teacher="Willian Lorenzo" img="figma"/>
+    <Allcourses title="Analog photography" teacher="Willian Lorenzo" img="drawing" />
+    <Allcourses title="Photoshop - Essence" teacher="Harol Vegas" img="photoshop" />
+
+</div>
+</div>
