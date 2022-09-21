@@ -7,6 +7,8 @@ import Course from "../components/coursestatus.astro";
 import Lastcourse from "../components/lastcourse.astro";
 import Arrow from "../components/arrow.astro";
 import Courses from "../components/courses.astro";
+import Learnmore from "../components/learnmore.astro";
+import Statistic from "../components/statistic.astro";
 ---
 
 <Layout title="Dashboard" description="Dashboard responsive">
@@ -32,12 +34,14 @@ import Courses from "../components/courses.astro";
         <div
           class="mt-4 w-[18.5rem] md:w-[25rem] lg:w-[23rem] xl:w-[25rem] grid grid-cols-2"
         >
-          <Course quantity={12} status="Completed" />
+          <Course quantity={11} status="Completed" />
           <Course quantity={5} status="In progress" />
         </div>
         <div class="lg:hidden block">
           <Courses />
         </div>
+          <Statistic />
+          <Learnmore />
       </section>
     </div>
   </div>
