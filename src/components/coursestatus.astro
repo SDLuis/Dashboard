@@ -5,9 +5,9 @@ export interface Props {
 }
 const { quantity, status } = Astro.props as Props;
 ---
-<div class="h-[5rem] md:h-[5.5rem] w-[8rem] md:w-[12rem] lg:w-[10.5rem] xl:w-[12rem] mr-4 rounded-xl bg-slate-200">
+<div class="h-[5rem] md:h-[4rem] w-[8rem] md:w-[12rem] lg:w-[10.5rem] xl:w-[12rem] mr-4 rounded-xl bg-slate-200">
 <div class="grid grid-cols-2 place-items-center">
 <p class="font-black text-5xl md:text-6xl ml-[-14px] md:ml-0">{quantity}</p>
-<p class="py-4 text-justify text-sm md:text-base ml-[-1rem]"> Courses <br/>{status}</p>
+<p class="text-justify text-sm md:text-base ml-[-1rem]"> Courses <br/>{status}</p>
 </div>
 </div>
